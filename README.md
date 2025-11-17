@@ -44,5 +44,34 @@ Price Optimization Engine
 Power BI Dashboard (KPI Reporting)
 ```
 
-
+## 📂 Folder Structure
+```powershell
+Dynamic_Pricing_Analysis/
+│
+├── data/
+│   ├── raw/                     # Source CSV/JSON
+│   └── processed/               # Cleaned, transformed datasets
+│
+├── sql/
+│   ├── 01_create_tables.sql
+│   ├── 02_cleaning.sql
+│   ├── 03_feature_engineering.sql
+│   ├── 04_pricing_metrics.sql
+│   ├── 05_views_for_powerbi.sql
+│
+├── scripts/
+│   ├── elasticity_model.py      # Estimate demand-price elasticity
+│   ├── forecast_demand.py       # Prophet/ARIMA forecasting
+│   ├── optimize_price.py        # Revenue-maximizing price recommendation
+│   ├── load_data.py             # ETL loader
+│   └── app.py                   # Streamlit app (optional)
+│
+├── dashboard/
+│   └── PowerBI_Report_Spec.md   # Full dashboard specification
+│
+├── docs/
+│   └── Workflow_Spec.md         # Pipeline documentation
+│
+└── README.md
+```
 
