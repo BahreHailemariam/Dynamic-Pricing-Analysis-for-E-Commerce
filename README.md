@@ -290,21 +290,21 @@ GROUP BY product_id;
 
 - Sensitivity slope graph
 
-4️⃣ Competitor Pricing
+**4️⃣ Competitor Pricing**
 
-Competitor gap analysis
+- Competitor gap analysis
 
-Price leadership index
+- Price leadership index
 
-Category competition matrix
+- Category competition matrix
 
-Visuals:
+**Visuals:**
 
-Gap vs Sales scatter
+- Gap vs Sales scatter
 
-Competitor comparison table
+- Competitor comparison table
 
-Competitive pressure heatmap
+- Competitive pressure heatmap
 
 5️⃣ Optimal Price Recommendations
 
