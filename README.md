@@ -337,3 +337,86 @@ GROUP BY product_id;
 - Risk heatmap
 
 - Stockout-driven price adjustment alerts
+
+## 🧮 Sample DAX Measures
+
+```DAX
+TotalRevenue = SUM(sales[revenue])
+
+AvgSellingPrice = AVERAGE(sales[price])
+
+GrossMargin = 
+DIVIDE(
+    SUMX(sales, (sales[price] - sales[cost]) * sales[quantity]),
+    SUM(sales[revenue])
+)
+
+ElasticityScore = AVERAGE(features[elasticity])
+```
+
+## 🚀 How to Run the Project
+**1️⃣ Ingest Raw Data**
+
+Place CSVs in:
+
+data/raw/
+
+**2️⃣ Run SQL Scripts**
+
+Execute in sequence:
+
+01_create_tables.sql
+02_cleaning.sql
+03_feature_engineering.sql
+04_pricing_metrics.sql
+05_views_for_powerbi.sql
+
+3️⃣ Train Pricing Models
+
+Run:
+
+python scripts/elasticity_model.py
+python scripts/forecast_demand.py
+python scripts/optimize_price.py
+
+4️⃣ Visualize in Power BI
+
+Connect to:
+
+processed datasets (CSV)
+
+SQLite/Postgres DB
+
+ML prediction outputs
+
+🌟 Key Insights You Can Discover
+
+Most elastic and inelastic products
+
+Products underpriced or overpriced
+
+Competitor gaps causing lost sales
+
+Price changes that maximize revenue
+
+Optimal pricing per category
+
+Profit uplift opportunities
+
+Relationships between price, demand, and seasonality
+
+🔮 Future Enhancements
+
+Reinforcement learning for real-time pricing
+
+A/B testing module
+
+Automated pricing recommendations via API
+
+Integration with Shopify/Amazon APIs
+
+Multi-agent competitive pricing simulation
+
+🙌 Contributing
+
+Pull requests, feature additions, and enhancements are welcome.
