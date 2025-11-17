@@ -85,3 +85,39 @@ Dynamic_Pricing_Analysis/
 | **competitors** | Competitor pricing data                       |
 | **inventory**   | Stock levels, replenishment cycles            |
 | **calendar**    | Date attributes (month, season, holiday flag) |
+
+## 🧼 SQL Data Cleaning
+
+Script: `02_cleaning.sql`
+
+Tasks include:
+
+- Fix invalid price values
+
+- Fill missing category fields
+
+- Normalize timestamps
+
+- Handle negative or zero demand
+
+- Deduplicate sales records
+
+Example:
+
+```sql
+UPDATE sales
+SET price = NULL
+WHERE price <= 0;
+```
+## 🧠 Feature Engineering
+
+Script: `03_feature_engineering.sql`
+
+Created Features Include:
+1. Price Elasticity Features
+
+- % price change
+
+- % quantity change
+
+elasticity coefficient:
