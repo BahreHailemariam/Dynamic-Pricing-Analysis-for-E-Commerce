@@ -75,3 +75,13 @@ Dynamic_Pricing_Analysis/
 └── README.md
 ```
 
+## 🗄️ Data Model
+### Tables Required
+
+| Table           | Description                                   |
+| --------------- | --------------------------------------------- |
+| **products**    | SKU, category, cost, base price               |
+| **sales**       | Quantity, revenue, price, date                |
+| **competitors** | Competitor pricing data                       |
+| **inventory**   | Stock levels, replenishment cycles            |
+| **calendar**    | Date attributes (month, season, holiday flag) |
