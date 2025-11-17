@@ -6,16 +6,26 @@ _Predictive, data-driven pricing strategy using Python, SQL, and Power BI._
 
 This project provides a **data analytics and machine-learning pipeline** to help e-commerce companies determine optimal product prices dynamically based on:
 
-Demand trends
+- Demand trends
 
-Competitor pricing
+- Competitor pricing
 
-Inventory levels
+- Inventory levels
 
-Customer behavior
+- Customer behavior
 
-Seasonality
+- Seasonality
 
-Historical performance
+- Historical performance
 
 The goal is to **maximize revenue and profit** while minimizing overpricing/underpricing risks.
+
+## 🎯 Objectives
+
+✔ Analyze demand elasticity and revenue sensitivity<br />
+✔ Predict optimal pricing using ML models<br />
+✔ Identify price segments and customer willingness-to-pay<br />
+✔ Detect competitor pricing gaps<br />
+✔ Build a dynamic pricing recommendation engine<br />
+✔ Create dashboards for pricing teams
+
