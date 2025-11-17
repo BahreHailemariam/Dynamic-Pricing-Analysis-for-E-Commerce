@@ -358,36 +358,39 @@ ElasticityScore = AVERAGE(features[elasticity])
 **1️⃣ Ingest Raw Data**
 
 Place CSVs in:
-
+```bash
 data/raw/
+```
 
 **2️⃣ Run SQL Scripts**
 
 Execute in sequence:
-
+```pgsql
 01_create_tables.sql
 02_cleaning.sql
 03_feature_engineering.sql
 04_pricing_metrics.sql
 05_views_for_powerbi.sql
-
-3️⃣ Train Pricing Models
+```
+**3️⃣ Train Pricing Models**
 
 Run:
+```bash
 
 python scripts/elasticity_model.py
 python scripts/forecast_demand.py
 python scripts/optimize_price.py
 
-4️⃣ Visualize in Power BI
+```
+**4️⃣ Visualize in Power BI**
 
 Connect to:
 
-processed datasets (CSV)
+- processed datasets (CSV)
 
-SQLite/Postgres DB
+- SQLite/Postgres DB
 
-ML prediction outputs
+- ML prediction outputs
 
 🌟 Key Insights You Can Discover
 
