@@ -392,21 +392,21 @@ Connect to:
 
 - ML prediction outputs
 
-🌟 Key Insights You Can Discover
+## 🌟 Key Insights You Can Discover
 
-Most elastic and inelastic products
+- Most elastic and inelastic products
 
-Products underpriced or overpriced
+- Products underpriced or overpriced
 
-Competitor gaps causing lost sales
+- Competitor gaps causing lost sales
 
-Price changes that maximize revenue
+- Price changes that maximize revenue
 
-Optimal pricing per category
+- Optimal pricing per category
 
-Profit uplift opportunities
+- Profit uplift opportunities
 
-Relationships between price, demand, and seasonality
+- Relationships between price, demand, and seasonality
 
 🔮 Future Enhancements
 
