@@ -29,3 +29,20 @@ The goal is to **maximize revenue and profit** while minimizing overpricing/unde
 ✔ Build a dynamic pricing recommendation engine<br />
 ✔ Create dashboards for pricing teams
 
+## 🧱 Project Architecture
+```java
+Raw Data Sources
+    ↓
+SQL Data Cleaning, Joins, Aggregations
+    ↓
+Feature Engineering (Demand, Elasticity, Competition, Time Series)
+    ↓
+ML Models (RandomForest, Prophet, XGBoost)
+    ↓
+Price Optimization Engine
+    ↓
+Power BI Dashboard (KPI Reporting)
+```
+
+
+
