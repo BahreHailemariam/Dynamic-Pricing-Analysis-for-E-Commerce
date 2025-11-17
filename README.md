@@ -236,6 +236,7 @@ FROM sales
 GROUP BY product_id;
 ```
 ## 📈 Power BI Dashboard Overview
+
 ### 📄 Pages Included
 **1️⃣ Pricing Overview**
 
@@ -257,23 +258,23 @@ GROUP BY product_id;
 
 - Profit waterfall chart
 
-2️⃣ Demand Insights
+**2️⃣ Demand Insights**
 
-Demand trend
+- Demand trend
 
-Seasonality patterns
+- Seasonality patterns
 
-Promo impact
+- Promo impact
 
-Category-level demand spikes
+- Category-level demand spikes
 
-Visuals:
+**Visuals:**
 
-Forecast line chart (Prophet forecasts)
+- Forecast line chart (Prophet forecasts)
 
-Rolling demand heatmap
+- Rolling demand heatmap
 
-Holiday spike indicator
+- Holiday spike indicator
 
 3️⃣ Elasticity & Sensitivity
 
