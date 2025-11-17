@@ -306,21 +306,21 @@ GROUP BY product_id;
 
 - Competitive pressure heatmap
 
-5️⃣ Optimal Price Recommendations
+**5️⃣ Optimal Price Recommendations**
 
-Recommended price per SKU
+- Recommended price per SKU
 
-Expected revenue lift
+- Expected revenue lift
 
-Expected margin impact
+- Expected margin impact
 
-Visuals:
+**Visuals:**
 
-Before/After price comparison
+- Before/After price comparison
 
-Recommendation KPI cards
+- Recommendation KPI cards
 
-Product-level optimizer panel
+- Product-level optimizer panel
 
 6️⃣ Inventory & Pricing Risk
 
