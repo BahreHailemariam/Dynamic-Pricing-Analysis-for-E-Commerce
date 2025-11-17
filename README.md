@@ -276,19 +276,19 @@ GROUP BY product_id;
 
 - Holiday spike indicator
 
-3️⃣ Elasticity & Sensitivity
+**3️⃣ Elasticity & Sensitivity**
 
-Elasticity coefficient by product
+- Elasticity coefficient by product
 
-Demand curve visualization
+- Demand curve visualization
 
-Revenue maximize point (Price vs Demand)
+- Revenue maximize point (Price vs Demand)
 
-Visuals:
+**Visuals:**
 
-Elasticity quadrant chart
+- Elasticity quadrant chart
 
-Sensitivity slope graph
+- Sensitivity slope graph
 
 4️⃣ Competitor Pricing
 
