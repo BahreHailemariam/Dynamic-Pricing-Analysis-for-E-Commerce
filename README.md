@@ -190,3 +190,16 @@ Objective:
 ```java
 Maximize Revenue = Price × PredictedDemand(Price)
 ```
+Methods:
+
+- Grid search
+
+- ML-based optimization
+
+- Profit maximization with constraints:
+
+   - Competitor gap limits
+
+   - Minimum margin threshold
+
+   - Stock availability
