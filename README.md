@@ -408,18 +408,18 @@ Connect to:
 
 - Relationships between price, demand, and seasonality
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
-Reinforcement learning for real-time pricing
+- Reinforcement learning for real-time pricing
 
-A/B testing module
+- A/B testing module
 
-Automated pricing recommendations via API
+- Automated pricing recommendations via API
 
-Integration with Shopify/Amazon APIs
+- Integration with Shopify/Amazon APIs
 
-Multi-agent competitive pricing simulation
+- Multi-agent competitive pricing simulation
 
-🙌 Contributing
+## 🙌 Contributing
 
 Pull requests, feature additions, and enhancements are welcome.
