@@ -146,7 +146,7 @@ PriceGap = OurPrice - CompetitorPrice
 
 - Seasonality index
 
-5. Time Features
+**5. Time Features**
 
 - Day of week
 
@@ -158,3 +158,35 @@ PriceGap = OurPrice - CompetitorPrice
 
 ## 🤖 Modeling Components
 
+**1. Elasticity Estimation**
+
+Script: `elasticity_model.py`
+Models:
+
+- Linear regression
+
+- Log-log elasticity model
+
+- Gradient Boosting elasticity
+
+**2. Demand Forecasting**
+
+Script: `forecast_demand.py`
+Models:
+
+- Facebook Prophet
+
+- ARIMA
+
+- RandomForest Regressor (optional)
+
+Used to simulate future demand at various price points.
+
+**3. Optimal Price Recommendation**
+
+Script: `optimize_price.py`
+
+Objective:
+```java
+Maximize Revenue = Price × PredictedDemand(Price)
+```
