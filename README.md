@@ -322,18 +322,18 @@ GROUP BY product_id;
 
 - Product-level optimizer panel
 
-6️⃣ Inventory & Pricing Risk
+**6️⃣ Inventory & Pricing Risk**
 
-Overstock / understock flags
+- Overstock / understock flags
 
-Pricing during supply issues
+- Pricing during supply issues
 
-Lost sales due to stockouts
+- Lost sales due to stockouts
 
-Visuals:
+**Visuals:**
 
-Inventory vs demand line charts
+- Inventory vs demand line charts
 
-Risk heatmap
+- Risk heatmap
 
-Stockout-driven price adjustment alerts
+- Stockout-driven price adjustment alerts
