@@ -203,3 +203,35 @@ Methods:
    - Minimum margin threshold
 
    - Stock availability
+## 📊 Key Pricing Metrics
+
+SQL Script: `04_pricing_metrics.sql`
+
+**Metrics:**
+
+- Revenue
+
+- Profit
+
+- Conversion rate
+
+- Elasticity score
+
+- Price corridor (acceptable range)
+
+- Price gap vs competition
+
+- Lost revenue due to stockouts
+
+Example SQL:
+```sql
+
+SELECT
+    product_id,
+    AVG(price) AS avg_price,
+    SUM(quantity) AS total_units,
+    SUM(price * quantity) AS revenue,
+    SUM((price - cost) * quantity) AS profit
+FROM sales
+GROUP BY product_id;
+```
