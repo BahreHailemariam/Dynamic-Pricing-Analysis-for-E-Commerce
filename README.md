@@ -114,10 +114,47 @@ WHERE price <= 0;
 Script: `03_feature_engineering.sql`
 
 Created Features Include:
-1. Price Elasticity Features
+**1. Price Elasticity Features**
 
 - % price change
 
 - % quantity change
 
-elasticity coefficient:
+- elasticity coefficient:
+```ini
+Elasticity = %Δ Quantity / %Δ Price
+```
+**2. Competitor Gap**
+```ini
+PriceGap = OurPrice - CompetitorPrice
+```
+**3. Margin Features**
+
+- Gross margin
+
+- Profit per SKU
+
+- Category margin contribution
+
+**4. Demand Indicators**
+
+- Rolling 7/30-day demand averages
+
+- Stock-outs
+
+- Holiday spikes
+
+- Seasonality index
+
+5. Time Features
+
+- Day of week
+
+- Month
+
+- Promo period flag
+
+- Holiday flag
+
+## 🤖 Modeling Components
+
