@@ -235,3 +235,104 @@ SELECT
 FROM sales
 GROUP BY product_id;
 ```
+## 📈 Power BI Dashboard Overview
+### 📄 Pages Included
+**1️⃣ Pricing Overview**
+
+- Total revenue
+
+- Profit & margin
+
+- Average selling price
+
+- Price vs competitor gap
+
+- Price corridor visualization
+
+**Visuals:**
+
+- Revenue trend
+
+- SKU-level price-profit scatter plot
+
+- Profit waterfall chart
+
+2️⃣ Demand Insights
+
+Demand trend
+
+Seasonality patterns
+
+Promo impact
+
+Category-level demand spikes
+
+Visuals:
+
+Forecast line chart (Prophet forecasts)
+
+Rolling demand heatmap
+
+Holiday spike indicator
+
+3️⃣ Elasticity & Sensitivity
+
+Elasticity coefficient by product
+
+Demand curve visualization
+
+Revenue maximize point (Price vs Demand)
+
+Visuals:
+
+Elasticity quadrant chart
+
+Sensitivity slope graph
+
+4️⃣ Competitor Pricing
+
+Competitor gap analysis
+
+Price leadership index
+
+Category competition matrix
+
+Visuals:
+
+Gap vs Sales scatter
+
+Competitor comparison table
+
+Competitive pressure heatmap
+
+5️⃣ Optimal Price Recommendations
+
+Recommended price per SKU
+
+Expected revenue lift
+
+Expected margin impact
+
+Visuals:
+
+Before/After price comparison
+
+Recommendation KPI cards
+
+Product-level optimizer panel
+
+6️⃣ Inventory & Pricing Risk
+
+Overstock / understock flags
+
+Pricing during supply issues
+
+Lost sales due to stockouts
+
+Visuals:
+
+Inventory vs demand line charts
+
+Risk heatmap
+
+Stockout-driven price adjustment alerts
